@@ -19,25 +19,22 @@
     ></script>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light sticky-top p-0 bg-dark text-white"
-    >
-      <div class="container bg-dark text-white py-2 border-bottom px-md-5">
-        <div class="bg- text-white py-2 px-3 rounded">
-          <span>Curriculum Vitae</span>
-        </div>
+    <!--Barra de navegación y menú-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Curriculum Vitae</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item me-4">
               <a
@@ -51,7 +48,9 @@
               <a href="" class="nav-link active text-white">Estudios</a>
             </li>
             <li>
-              <a href="mailto:manuelxcornejo@gmail.com" class="btn btn-light"
+              <a
+                href="mailto:gabriel.andres.gonzalez.perez@gmail.com"
+                class="btn text-white bg-dark"
                 >Contactar</a
               >
             </li>
@@ -59,11 +58,34 @@
         </div>
       </div>
     </nav>
-
-    <main class="container">
-      <section>
-        <h1 class="text-center">Gabriel Andres Pérez González</h1>
-      </section>
+    <!--Acerca de mi-->
+    <main class="container pt-3">
+      <div class="container bg-white">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-12">
+            <div class="row justify-content-center align-items-center py-5">
+              <div class="col-lg-9">
+                <img
+                  src="./assets/img/profile.jpg"
+                  alt="Profile picture"
+                  class="rounded mx-auto d-block img-fluid rounded-circle mb-3"
+                  width="140"
+                />
+                <h1 class="display-5 fw-bold">Gabriel Andres Pérez González</h1>
+                <h2 class="display-6">Tecnico Informatico</h2>
+                <section class="pt-3">
+                  <h3>Acerca de mi</h3>
+                  <p class="text-muted">
+                    Me encanta mantenerme aprendiendo distintas cosas y por esto
+                    es que elegí el camino del mundo de TI.
+                    <br />
+                  </p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer></footer>
